@@ -4,8 +4,8 @@
   attr_accessor :symbol, :box_position
 
   def initialize(symbol, box_position)
-    @symbol = 
-    @box_position = []
+    @symbol = x, y, vide 
+    @box_position = [0..8].join","
   end  
 
   winner_position =[
